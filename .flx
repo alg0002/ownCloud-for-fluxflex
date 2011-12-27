@@ -1,0 +1,12 @@
+[replace]
+public_html/config/config.php	DUMMY_PROJECT_NAME	PROJECT_NAME
+public_html/config/config.php	DUMMY_DB_HOST	DB_HOST
+public_html/config/config.php	DUMMY_DB_USER	DB_USER
+public_html/config/config.php	DUMMY_DB_PASSWORD	DB_PASSWORD
+
+[setup]
+mkdir public_html/data
+
+[permission]
+public_html/data	750
+public_html/config	777
